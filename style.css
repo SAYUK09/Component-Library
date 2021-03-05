@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 main{
     width: 100%;
    
@@ -76,6 +80,14 @@ section h2{
     text-align: center;
     margin: 10px;
     font-family: sans-serif;
+}
+
+section h3{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    color: #cecece;
 }
 
 section {
