@@ -1,3 +1,7 @@
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire|outline";
+@import 'https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Roboto+Slab&family=RocknRoll+One&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Quattrocento&family=Roboto+Slab&family=RocknRoll+One&display=swap';
 *{
     margin:0;
     padding: 0;
@@ -9,22 +13,52 @@ main{
 }
 
 #mainContainer{
-    background-color: red;
     display: flex;
     height: 90vh;
 }
 
 nav{
-    background-color: rebeccapurple;
+    background-color: #161B22;
+    color: white;
+    box-sizing: border-box;
     height: 10vh;
+    padding: 2%;
+    /* border-bottom: 2px #1F2937 solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
 }
+
+#logo{
+    font-family: Rancho sans-serif ;
+    letter-spacing: 1px;
+    font-size: large;
+}
+
+nav{
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+#navTitle span{
+    font-size: larger;
+    padding: 0 10px;
+}
+
 aside{
-    background-color: bisque;
+    background-color: #111827;
     width: 20vw;
+    color: white;
+    border-right: 2px #1F2937 solid;
+    padding: 1% 2%;
+    font-family: 'Roboto Slab', serif;
 }
 
 #contentContainer{
-    background-color: chartreuse;
+    background-color: #0D1117;
     width: 80vw;
-    
+    font-family: 'Quattrocento', serif;
+    font-weight: 500;
+    color:whitesmoke;
+    padding: 1% 2%;;
 }
