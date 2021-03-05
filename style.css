@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+   
+}
+
+#mainContainer{
+    background-color: red;
+    display: flex;
+    height: 90vh;
+}
+
+nav{
+    background-color: rebeccapurple;
+    height: 10vh;
+}
+aside{
+    background-color: bisque;
+    width: 20vw;
+}
+
+#contentContainer{
+    background-color: chartreuse;
+    width: 80vw;
+    
+}
