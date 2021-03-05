@@ -17,7 +17,6 @@ main{
 
 #mainContainer{
     display: flex;
-    height: 90vh;
 }
 
 #navDocs{
@@ -51,6 +50,8 @@ nav{
 aside{
     background-color: #111827;
     width: 20vw;
+    display: flex;
+    flex-direction: column;
     color: white;
     border-right: 2px #1F2937 solid;
     padding: 1% 2%;
@@ -71,8 +72,27 @@ aside a {
     padding: 1% 2%;;
 }
 
+section h2{
+    text-align: center;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
 section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 1%;
+}
+
+article{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding:10px
 }
 
 /* COMPONENT LIBRARY : COMPONENTS */
@@ -91,7 +111,7 @@ section {
     height: 90%
     
 }
-.nav1 img{
+.nav1 .navLogo{
     height:100% ;
 }
 
@@ -123,11 +143,73 @@ section {
     cursor: pointer;
 }
 
-article{
+
+
+/* Component --> CARD */
+
+.card1{
+    background-color:#F3F4F6 ;
+    height: 350px;
+    width: 240px;
+}
+
+.imgDiv{
+    background-color: brown;
+    height: 70%;
+    margin-bottom:8px;
+}
+
+.productImg{
+    height: 100%;
     width: 100%;
+    object-fit: cover;
+}
+
+.cardDetail{
+    box-sizing: border-box;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    padding:10px
+    flex-direction: column;
+    padding: 10px;
+    color: black;
+    line-height: 18px;
+}
+
+.productTitle{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.productDescrip{
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+}
+
+.productPrice{
+    font-size: 14px;
+    color: #282c3f;
+    font-weight: 500;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.strikeOut{
+    text-decoration: line-through;
+    color: black;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
 }
