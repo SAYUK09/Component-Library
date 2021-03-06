@@ -3,7 +3,7 @@
 @import 'https://fonts.googleapis.com/css2?family=Roboto+Slab&family=RocknRoll+One&display=swap';
 @import 'https://fonts.googleapis.com/css2?family=Quattrocento&family=Roboto+Slab&family=RocknRoll+One&display=swap';
 
-/* DOCUMENTATION */
+/*---------------------------------> DOCUMENTATION <--------------------------------------*/
 
 *{
     margin:0;
@@ -82,7 +82,19 @@ section h2{
     font-family: sans-serif;
 }
 
-section h3{
+mark{
+    font-size: larger;
+    background:#DDD6FE;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+mark>span{
+    font-size: 22px;
+}
+
+section >h3{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 0px;
@@ -107,7 +119,9 @@ article{
     padding:10px
 }
 
-/* COMPONENT LIBRARY : COMPONENTS */
+/* ---------------------------> COMPONENT LIBRARY : COMPONENTS <----------------------------*/
+
+/* Component --> NAV */
 .nav1{
     box-sizing: border-box;
     background-color: #6D28D9;
@@ -159,16 +173,20 @@ article{
 
 /* Component --> CARD */
 
-.card1{
+.card1, .cardSecondary{
     background-color:#F3F4F6 ;
     height: 350px;
     width: 240px;
+    cursor: pointer;
 }
 
 .imgDiv{
     background-color: brown;
     height: 70%;
-    margin-bottom:8px;
+}
+
+.secondaryImgDiv{
+    height: 65%;
 }
 
 .productImg{
@@ -181,7 +199,7 @@ article{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 10px 10px;
     color: black;
     line-height: 18px;
 }
@@ -195,6 +213,7 @@ article{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    text-align: left;
 }
 
 .productDescrip{
@@ -225,3 +244,23 @@ article{
     margin-left: 5px;
     font-size: 12px;
 }
+
+.secondaryBtnDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+
+.secCardBtn{
+    padding: 8px;
+    background-color: transparent;
+    border:1px #282c3f solid;
+    outline: none;
+    border-radius: 3px;
+}
+
+.secCardBtn:hover{
+    background-color:#DDD6FE;
+}
+
