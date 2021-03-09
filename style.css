@@ -119,6 +119,16 @@ article{
     padding:10px
 }
 
+#componentDiv{
+    padding: 1rem;
+    border: 1px solid white;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
 /* ---------------------------> COMPONENT LIBRARY : COMPONENTS <----------------------------*/
 
 /* Component --> NAV */
@@ -179,6 +189,7 @@ article{
     height: 350px;
     width: 240px;
     cursor: pointer;
+    border: 1px black solid;
 }
 
 .imgDiv{
@@ -277,7 +288,7 @@ article{
     background-color: #3B82F6;
     border: 1px solid #3B82F6;
     color: #fff;
-    min-width: 189px;
+    max-width: 189px;
     text-align: center;
 }
 
