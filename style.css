@@ -240,7 +240,7 @@ article{
 
 .strikeOut{
     text-decoration: line-through;
-    color: black;
+    color:#ff905a;
     font-weight: 400;
     margin-left: 5px;
     font-size: 12px;
@@ -265,3 +265,50 @@ article{
     background-color:#DDD6FE;
 }
 
+
+/* Components -----> BUTTONS */
+
+/* PRIMARY BUTTON */
+.btnPrimary{
+    border-radius: 10px;
+    padding: 12px 15px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #3B82F6;
+    border: 1px solid #3B82F6;
+    color: #fff;
+    min-width: 189px;
+    text-align: center;
+}
+
+.btnPrimaryIcon{
+    padding-right: 10px;
+}
+
+.btnPrimary:hover{
+    background-color: white;
+    color: #3B82F6;
+    border: 1px solid white;
+}
+
+/* SECONDARY BUTTON */
+.btnSecondary{
+    border-radius: 10px;
+    padding: 12px 15px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #3B82F6;
+    background-color: #fff;
+    letter-spacing: .4px;
+    color: #3B82F6;
+}
+
+.btnSecondaryIcon{
+    padding-right: 10px;
+}
+
+.btnSecondary:hover{
+    background-color: #3B82F6;
+    color: white;
+    border: 1px solid #3B82F6;
+}
