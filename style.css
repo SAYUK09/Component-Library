@@ -327,6 +327,8 @@ article{
     border: 1px solid #3B82F6;
 }
 
+/* COMPONENT -------> BADGES */
+
 .badge{
     display: inline-block;
     white-space: nowrap;
@@ -352,4 +354,31 @@ article{
 .badgeDelete{
     background-color: #fed7d7;
     color: #822727;
+}
+
+/* COMPONENTS ------> Avatar */
+.avatar{
+    border-radius: 50%;
+    font-family: sans-serif;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatarContact{
+    background-color: #822727;
+}
+
+.avatarOrange{
+    background-color: #ff5722;
+   
+}
+
+.avtImg{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
