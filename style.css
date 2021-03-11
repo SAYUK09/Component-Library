@@ -126,8 +126,9 @@ article{
     /* border: 1px solid white; */
     width: 90%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    justify-content: space-around;
     background-color: whitesmoke;
 }
 
@@ -324,12 +325,6 @@ article{
     background-color: #3B82F6;
     color: white;
     border: 1px solid #3B82F6;
-}
-
-
-.componentDiv.badgeDiv{
-   display: flex;
-   justify-content: space-around;
 }
 
 .badge{
