@@ -8,6 +8,7 @@
 *{
     margin:0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -116,12 +117,13 @@ article{
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    margin-bottom: 20px;
     padding:10px
 }
 
-#componentDiv{
+.componentDiv{
     padding: 1rem;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 90%;
     display: flex;
     justify-content: center;
@@ -324,3 +326,35 @@ article{
     border: 1px solid #3B82F6;
 }
 
+
+.componentDiv.badgeDiv{
+   display: flex;
+   justify-content: space-around;
+}
+
+.badge{
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    font-size: small;
+    border-radius: 2px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.badgeSuccess{
+    background:#c6f6d5;
+    color: #22543d;
+}
+
+.badgePrimary{
+    background:#3b83f621;
+    color: #3B82F6;
+}
+
+.badgeDelete{
+    background-color: #fed7d7;
+    color: #822727;
+}
