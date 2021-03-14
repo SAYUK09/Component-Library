@@ -35,6 +35,7 @@ main{
     justify-content: space-between;
     align-items: center;
     font-size: large;
+    
 }
 
 #logo{
@@ -61,11 +62,17 @@ aside{
     border-right: 2px #1F2937 solid;
     padding: 1% 2%;
     font-family: 'Roboto Slab', serif;
+    position:sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+
 }
 
 aside a {
     color: whitesmoke;
     text-decoration: none;
+    padding: 1rem 0.5rem;
 }
 
 #contentContainer{
