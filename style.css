@@ -130,13 +130,15 @@ article{
 
 .componentDiv{
     padding: 1rem;
-    /* border: 1px solid white; */
+    border-bottom:1px solid white;
+    border-top:1px solid white;
+    border-radius: 10%;
     width: 90%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
 }
 
 /* ---------------------------> COMPONENT LIBRARY : COMPONENTS <----------------------------*/
@@ -348,6 +350,7 @@ article{
     border-radius: 2px;
     font-weight: bold;
     font-family: sans-serif;
+    margin: 10px 5px;
 }
 
 .badgeSuccess{
