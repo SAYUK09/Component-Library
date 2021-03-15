@@ -64,7 +64,7 @@ aside{
     font-family: 'Roboto Slab', serif;
     position:sticky;
     top: 0;
-    height: 83vh;
+    height: 88vh;
     overflow-y: auto;
 
 }
@@ -143,7 +143,7 @@ article{
 
 footer{
     background-color: #161B22;
-    height: 17vh;
+    height: 12vh;
     width: 100%;
     padding: 2%;
     color: white;
@@ -161,15 +161,15 @@ footer{
 }
 
 .footerLogo{
-    height: 8vh;
-    width: 8vh;
+    height: 5vh;
+    width: 5vh;
    
 }
 
 .footerTitle{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'RocknRoll One', sans-serif;
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 
 .footerLogo img{
