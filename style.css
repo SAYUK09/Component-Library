@@ -64,7 +64,7 @@ aside{
     font-family: 'Roboto Slab', serif;
     position:sticky;
     top: 0;
-    height: 88vh;
+    height: 90vh;
     overflow-y: auto;
 
 }
@@ -143,7 +143,7 @@ article{
 
 footer{
     background-color: #161B22;
-    height: 12vh;
+    height: 10vh;
     width: 100%;
     padding: 2%;
     color: white;
@@ -179,9 +179,35 @@ footer{
 }
 
 .footerFoot{
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.3rem;
     font-family: sans-serif;
+    font-size: 0.5rem;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+    border-radius:100px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #4834d4;
+background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+  }
 
 /* ---------------------------> COMPONENT LIBRARY : COMPONENTS <----------------------------*/
 
