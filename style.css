@@ -64,7 +64,7 @@ aside{
     font-family: 'Roboto Slab', serif;
     position:sticky;
     top: 0;
-    height: 100vh;
+    height: 83vh;
     overflow-y: auto;
 
 }
@@ -139,6 +139,48 @@ article{
     flex-wrap: wrap;
     justify-content: space-around;
     /* background-color: whitesmoke; */
+}
+
+footer{
+    background-color: #161B22;
+    height: 17vh;
+    width: 100%;
+    padding: 2%;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerHead{
+    display: flex;
+    align-items: baseline;
+}
+
+.footerLogo{
+    height: 8vh;
+    width: 8vh;
+   
+}
+
+.footerTitle{
+    font-size: 1.5rem;
+    font-family: 'RocknRoll One', sans-serif;
+    padding: 0.5rem;
+}
+
+.footerLogo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.footerFoot{
+    padding-bottom: 0.5rem;
+    font-family: sans-serif;
 }
 
 /* ---------------------------> COMPONENT LIBRARY : COMPONENTS <----------------------------*/
