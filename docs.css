@@ -9,6 +9,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 html {
@@ -51,6 +52,22 @@ nav{
 #navTitle span{
     font-size: larger;
     padding: 0 10px;
+}
+
+.navLinks{
+    display: flex;
+    font-family: sans-serif;
+}
+
+.navLink{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0.5rem;
+    margin: 0 1rem;
+}
+
+.currentLink{
+    background-color:#130f40 ;
 }
 
 aside{
