@@ -55,7 +55,6 @@ html {
     justify-content: space-between;
     align-items: center;
     font-size: large;
-    
 }
 
 #logo{
@@ -90,4 +89,42 @@ nav{
 
 .currentLink{
     background-color:#130f40 ;
+}
+
+header{
+    background-color: #0D1117;
+    background-image: url("./assets/wave (4).svg");
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.imgContainer{
+   
+}
+
+.imgContainer img{
+    padding: 1rem;
+    width: 500px;
+   
+}
+
+.headerHead{
+    width:70vh
+    
+}
+
+.title{
+    font-size: 2.6rem;
+    padding: 1rem;
+    color: #6D28D9;
+}
+
+.headerDescip{
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #8B5CF6;
 }
