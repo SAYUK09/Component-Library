@@ -93,7 +93,7 @@ nav{
 
 header{
     background-color: #0D1117;
-    background-image: url("./assets/wave (4).svg");
+    background-image: url("./assets/wave (5).svg");
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
@@ -120,11 +120,11 @@ header{
 .title{
     font-size: 2.6rem;
     padding: 1rem;
-    color: #6D28D9;
+    color: white;
 }
 
 .headerDescip{
     padding: 1rem;
     font-size: 1.2rem;
-    color: #8B5CF6;
+    color: #cecece;
 }
