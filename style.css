@@ -112,7 +112,7 @@ header{
 }
 
 .imgContainer{
-    padding: 0 2rem;
+    padding: 1rem 2rem;
    
 }
 
@@ -132,8 +132,8 @@ header{
 }
 
 .headerDescip{
-    padding-top: 1.2rem;
-    font-size: 1rem;
+    padding: 1.2rem 0;
+    font-size: 1.3rem;
     color: #cecece;
 }
 
