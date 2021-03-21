@@ -1,5 +1,5 @@
 
-
+@import "https://vanilla-css.netlify.app/docs.css";
 @import "https://fonts.googleapis.com/css?family=Rancho&effect=fire|outline";
 @import 'https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap';
 @import 'https://fonts.googleapis.com/css2?family=Roboto+Slab&family=RocknRoll+One&display=swap';
@@ -97,8 +97,9 @@ header{
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 4rem;
     
 }
 
@@ -107,24 +108,28 @@ header{
 }
 
 .imgContainer img{
-    padding: 1rem;
-    width: 500px;
-   
+    width: 50vw;
 }
 
 .headerHead{
-    width:70vh
-    
+    width:50vh;
+    margin-top: 1rem;
+    padding-left: 4rem;
 }
 
 .title{
-    font-size: 2.6rem;
-    padding: 1rem;
+    font-size: 2.4rem;
     color: white;
 }
 
 .headerDescip{
-    padding: 1rem;
-    font-size: 1.2rem;
+    padding-top: 1.2rem;
+    font-size: 1rem;
     color: #cecece;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
 }
