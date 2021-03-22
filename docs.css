@@ -36,7 +36,10 @@ main{
     justify-content: space-between;
     align-items: center;
     font-size: large;
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1
 }
 
 #logo{
@@ -80,7 +83,7 @@ aside{
     padding: 1% 2%;
     font-family: 'Roboto Slab', serif;
     position:sticky;
-    top: 0;
+    top: 10vh;
     height: 90vh;
     overflow-y: auto;
 
