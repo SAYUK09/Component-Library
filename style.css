@@ -175,3 +175,46 @@ header{
     color: black;
     font-weight: 300;
 }
+
+footer{
+    background-color: #161B22;
+    height: 10vh;
+    width: 100%;
+    padding: 2%;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footerHead{
+    display: flex;
+    align-items: baseline;
+}
+
+.footerLogo{
+    height: 5vh;
+    width: 5vh;
+   
+}
+
+.footerTitle{
+    font-size: 1rem;
+    font-family: 'RocknRoll One', sans-serif;
+    padding: 0.3rem;
+}
+
+.footerLogo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.footerFoot{
+    padding-bottom: 0.3rem;
+    font-family: sans-serif;
+    font-size: 0.5rem;
+}
