@@ -138,3 +138,32 @@ header{
 }
 
 
+#installDiv{
+    background-color:#0D1117;
+    color: white;
+    padding: 1.5rem;
+}
+
+.sectTitle{
+    font-size: 1.5rem;
+    font-family:sans-serif;
+    padding-bottom: 0.5rem;
+}
+
+.sectSubTitle{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: #cecece
+}
+
+.sectDescrip{
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 2rem;
+}
+
+.codeBlock{
+    background-color: #cecece;
+    padding: 0.1rem;
+    color: black;
+    font-weight: 300;
+}
