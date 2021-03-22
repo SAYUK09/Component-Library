@@ -16,6 +16,9 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #0D1117
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -138,10 +141,14 @@ header{
 }
 
 
-#installDiv{
+.installDiv{
     background-color:#0D1117;
     color: white;
     padding: 1.5rem;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 10%;
+    margin: 1rem;
 }
 
 .sectTitle{
@@ -158,7 +165,8 @@ header{
 
 .sectDescrip{
     font-family: 'Roboto Slab', serif;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem ;
+    
 }
 
 .codeBlock{
