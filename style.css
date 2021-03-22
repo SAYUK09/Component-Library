@@ -145,7 +145,7 @@ header{
 }
 
 
-.installDiv{
+#installDiv , .installDiv{
     background-color:#0D1117;
     color: white;
     padding: 1.5rem;
