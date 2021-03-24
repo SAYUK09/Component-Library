@@ -2,10 +2,8 @@
 @import "https://csscomponents.netlify.app/style.css";
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire|outline";
 @import 'https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap';
-@import 'https://fonts.googleapis.com/css2?family=Roboto+Slab&family=RocknRoll+One&display=swap';
-@import 'https://fonts.googleapis.com/css2?family=Quattrocento&family=Roboto+Slab&family=RocknRoll+One&display=swap';
+
 /* ------------------------------------------------- */
 
 *{
@@ -55,7 +53,6 @@ body{
     box-sizing: border-box;
     height: 10vh;
     padding: 2%;
-    /* border-bottom: 2px #1F2937 solid; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,12 +61,6 @@ body{
     top: 0;
     width: 100%;
     z-index: 1;
-}
-
-#logo{
-    font-family: Rancho sans-serif ;
-    letter-spacing: 1px;
-    font-size: large;
 }
 
 nav{
@@ -82,9 +73,7 @@ nav{
 }
 
 .navLinks{
-    /* width: 20%; */
     display: flex;
-    /* justify-content: space-between; */
     font-family: sans-serif;
     
 }
