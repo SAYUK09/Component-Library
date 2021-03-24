@@ -1,5 +1,7 @@
 
 @import "https://csscomponents.netlify.app/style.css";
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @import "https://fonts.googleapis.com/css?family=Rancho&effect=fire|outline";
 @import 'https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap';
 @import 'https://fonts.googleapis.com/css2?family=Roboto+Slab&family=RocknRoll+One&display=swap';
@@ -129,12 +131,14 @@ header{
 .title{
     font-size: 2.4rem;
     color: white;
+    font-family: 'Acme', sans-serif;
 }
 
 .headerDescip{
     padding: 1.2rem 0;
     font-size: 1.3rem;
     color: #cecece;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .buttonsContainer{
@@ -168,7 +172,7 @@ header{
 }
 
 .sectDescrip{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Fira Sans', sans-serif;
     padding-bottom: 1rem ;
     
 }
