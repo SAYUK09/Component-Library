@@ -150,9 +150,6 @@ article{
 
 .componentDiv{
     padding: 1rem;
-    border-bottom:1px solid white;
-    border-top:1px solid white;
-    border-radius: 10%;
     width: 90%;
     display: flex;
     align-items: center;
@@ -429,6 +426,26 @@ footer{
     border: 1px solid #3B82F6;
 }
 
+.iconBtn{
+    border-radius: 10px;
+    padding: 12px 15px;
+    cursor: pointer;
+    border: 1px solid #3B82F6;
+    background-color: #fff;
+    color: #3B82F6;
+    display: inline-block;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.iconBtn:hover{
+    box-shadow: 0px 0px 8px 0px rgba(59,130,246,0.66);
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(59,130,246,0.66);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(59,130,246,0.66);
+   
+}
+
 /* COMPONENT -------> BADGES */
 
 .badge{
@@ -514,3 +531,65 @@ footer{
     background-color: rgb(198, 246, 213);
 }
 
+/* COMPONENTS -------> LISTS */
+.notifDiv{
+    max-height: 40vh;
+    overflow-y: scroll;
+}
+
+.list{
+    list-style: none;
+    background-color: #1F2937;
+}
+
+.notif{
+    padding:1.5rem 2rem;
+    width: 20vw;
+    background-color: #f5f5f6;
+    color:black;
+    border-bottom: 1px solid #161B22;
+    text-align: center;
+    transition: background-color 0.2s ease-out;
+
+}
+
+.notif:hover{
+    
+    background-color: #1F2937;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+.inputWithIcon {
+    width:30vw;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputField{
+    width: 90%;
+    padding:0.3rem ;
+    outline: none;
+    border-radius: 3px;
+    border:none
+
+}
+
+.inputField:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+/* .inputWithIcon i.textFlied:focus + i {
+    color: dodgerBlue;
+} */
