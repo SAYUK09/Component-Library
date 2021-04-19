@@ -150,9 +150,6 @@ article{
 
 .componentDiv{
     padding: 1rem;
-    border-bottom:1px solid white;
-    border-top:1px solid white;
-    border-radius: 10%;
     width: 90%;
     display: flex;
     align-items: center;
@@ -534,7 +531,7 @@ footer{
     background-color: rgb(198, 246, 213);
 }
 
-/* COMPONENTS -------> NOTIFICATIONS */
+/* COMPONENTS -------> LISTS */
 .notifDiv{
     max-height: 40vh;
     overflow-y: scroll;
@@ -566,7 +563,7 @@ footer{
 
 
 .inputWithIcon {
-    width: 100%;
+    width:65%;
     border: 2px solid #aaa;
     border-radius: 4px;
     margin: 8px 0;
