@@ -563,7 +563,7 @@ footer{
 
 
 .inputWithIcon {
-    width:50vw;
+    width:30vw;
     border: 2px solid #aaa;
     border-radius: 4px;
     margin: 8px 0;
@@ -577,7 +577,7 @@ footer{
 }
 
 .inputField{
-    width: 95%;
+    width: 90%;
     padding:0.3rem ;
     outline: none;
     border-radius: 3px;
