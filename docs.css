@@ -439,6 +439,14 @@ footer{
     display: inline-block;
     font-size: 1rem;
     outline: none;
+    transition: all 0.3s ease;
+}
+
+.iconBtn:hover{
+    box-shadow: 0px 0px 8px 0px rgba(59,130,246,0.66);
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(59,130,246,0.66);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(59,130,246,0.66);
+   
 }
 
 /* COMPONENT -------> BADGES */
