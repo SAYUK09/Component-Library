@@ -18,7 +18,6 @@ html {
 
 main{
     width: 100%;
-   
 }
 
 #mainContainer{
@@ -86,17 +85,21 @@ aside{
     top: 10vh;
     height: 90vh;
     overflow-y: auto;
+}
 
+aside a:hover {
+    padding-left: 12%;
 }
 
 aside a {
     color: whitesmoke;
     text-decoration: none;
     padding: 1rem 0.5rem;
+    transition: padding-left 0.3s ease-in-out;
 }
 
 #contentContainer{
-    background-color: #0D1117;
+    background-color: #020303;
     width: 80vw;
     font-family: 'Quattrocento', serif;
     font-weight: 500;
@@ -561,6 +564,7 @@ footer{
     
 }
 
+/* COMPONENTS -------> INPUT */
 
 .inputWithIcon {
     width:30vw;
